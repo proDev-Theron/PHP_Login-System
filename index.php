@@ -15,7 +15,7 @@
         <form class="form" method="post"> 
             <!-- Email -->
             <div class="input-group">
-            <label for="form">Email Address</label>
+            <label for="email">Email Address</label>
             <input type="email" name="email" id="email" placeholder="Enter Your Email" required="">
             </div>
             <!-- Password -->
