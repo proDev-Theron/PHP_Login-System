@@ -1,4 +1,5 @@
 <?php 
+    define('__CONFIG__', true);
     require_once "inc/config.php";
 ?>
 
@@ -33,8 +34,7 @@
             </div>
         </form>
     </div> 
-    <footer>
-        <label>&copy; 2019 Created by <a href="https://www.linked.com/in/prodev-theron"><em>prodev-Theron</em></label>
-    </footer>
+    <!-- Footer -->
+    <?php include "inc/footer.php";?>
 </body>
 </html>
