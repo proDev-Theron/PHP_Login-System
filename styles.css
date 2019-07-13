@@ -1,7 +1,11 @@
-*{
+html{
     margin: 0 px;
     padding: 0;
     z-index: 0 px;
+    -ms-text-size-adjust: 100%;
+    line-height: 1.15rem;
+    font-family: sans-serif;
+    display: flex;
 }
 
 body{
@@ -14,6 +18,11 @@ body{
 
 .loginSection{
     text-align: justify;
+    margin: auto;
+}
+
+a, a:visited, a:hover, a:active{
+    color: #212529;
 }
 
 label{
@@ -60,10 +69,15 @@ h1,h2,h3,h4,h5,h6{
     margin-bottom: 1.2rem;
 }
 
-h1{
-    font-size: 2.5rem;
+.h1, h1{
+    font-family: inherit;
+    font-size: 3.3rem;
 }
 
 .loginbtn{
     padding-top: 10px;
+}
+
+.text-center{
+    text-align: center;
 }
