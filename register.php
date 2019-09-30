@@ -16,7 +16,7 @@
 </head>
 <body>
     <div class="loginSection">   
-        <h1>Register</h1>
+        <h1>Register Form</h1>
         <form class="form" method="post"> 
             <!-- Email -->
             <div class="input-group">
@@ -28,9 +28,12 @@
             <label for="password">Password</label>
             <input type="password" name="password" id="password" placeholder="Enter Your Password" required="">
             </div>
-            <!-- Button -->
+            <!-- Login Button -->
             <div class="loginbtn">
             <button type="submit">Register</button>
+            or
+            <!-- Link to Login Page -->
+            <a href="index.php">Login</a>
             </div>
         </form>
     </div> 

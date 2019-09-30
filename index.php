@@ -28,9 +28,12 @@
             <label for="password">Password</label>
             <input type="password" name="password" id="password" placeholder="Enter Your Password" required="">
             </div>
-            <!-- Button -->
+            <!-- Login Button -->
             <div class="loginbtn">
-            <button type="submit">LOGIN</button>
+            <button type="submit">Login</button>
+            or
+            <!-- Link to Register Page -->
+            <a href="register.php">Register</a>
             </div>
         </form>
     </div> 
